@@ -1,0 +1,7 @@
+record_id,score,event_date,region
+A1,88,2024-03-10,North
+A2,91,10/03/2024,South
+A3,high,2024-03-12,East
+A4,-4,2024-02-30,West
+A4,-4,2024-02-30,West
+A5,NA,2024-03-14,

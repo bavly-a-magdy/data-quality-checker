@@ -1,0 +1,8 @@
+﻿file,row number,column,bad value,issue type,explanation
+sample_advanced.csv,14,Total Spent,(empty),missing value,1 empty field
+sample_advanced.csv,15,Price Per Unit,(empty),missing value,1 empty field
+sample_inference.csv,102,Price Per Unit,(empty),missing value,1 empty field
+sample_inference.csv,103,Total Spent,(empty),missing value,1 empty field
+sample_messy.csv,5,comment,(empty),missing value,1 empty field
+sample_messy.csv,6,email,(empty),missing value,1 empty field
+sample_messy_2.csv,7,"score, region",(empty),missing value,2 empty fields

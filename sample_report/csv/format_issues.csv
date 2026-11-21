@@ -1,0 +1,21 @@
+﻿file,row number,column,bad value,issue type,explanation
+sample_advanced.csv,8,Order Date,2035-01-07,future date,Date is later than today
+sample_advanced.csv,13,Order Date,2024-02-30,invalid date,Value is not a valid supported date
+sample_messy.csv,2,amount,"1,200.50",mixed number separators,Number punctuation differs within this numeric column
+sample_messy.csv,3,amount,45.00,mixed number separators,Number punctuation differs within this numeric column
+sample_messy.csv,4,amount,45.00,mixed number separators,Number punctuation differs within this numeric column
+sample_messy.csv,6,amount,$25.00,currency symbol,Currency symbol is embedded in a numeric column
+sample_messy.csv,6,amount,$25.00,mixed number separators,Number punctuation differs within this numeric column
+sample_messy.csv,7,amount,"1.200,50",mixed number separators,Number punctuation differs within this numeric column
+sample_messy.csv,2,order_date,2024-01-05,mixed date format,Date format differs from other values in this column
+sample_messy.csv,3,order_date,05/01/2024,mixed date format,Date format differs from other values in this column
+sample_messy.csv,4,order_date,05/01/2024,mixed date format,Date format differs from other values in this column
+sample_messy.csv,5,order_date,2024-02-31,invalid date,Value is not a valid supported date
+sample_messy.csv,6,order_date,2024/01/06,mixed date format,Date format differs from other values in this column
+sample_messy.csv,7,order_date,2024-01-07,mixed date format,Date format differs from other values in this column
+sample_messy_2.csv,2,event_date,2024-03-10,mixed date format,Date format differs from other values in this column
+sample_messy_2.csv,3,event_date,10/03/2024,mixed date format,Date format differs from other values in this column
+sample_messy_2.csv,4,event_date,2024-03-12,mixed date format,Date format differs from other values in this column
+sample_messy_2.csv,5,event_date,2024-02-30,invalid date,Value is not a valid supported date
+sample_messy_2.csv,6,event_date,2024-02-30,invalid date,Value is not a valid supported date
+sample_messy_2.csv,7,event_date,2024-03-14,mixed date format,Date format differs from other values in this column

@@ -1,0 +1,11 @@
+﻿file,row number,column,bad value,issue type,explanation
+sample_advanced.csv,2,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,3,Channel,online ,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,5,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,7,Channel,online ,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,8,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,10,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,13,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,14,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_advanced.csv,15,Channel,Online,inconsistent category,"Category varies in case or whitespace: Online, online "
+sample_inference.csv,2,"Price Per Unit, Total Spent, Quantity",1 | 3 | 2,cross-field rule violation,Values do not satisfy: Total Spent = Price Per Unit * Quantity

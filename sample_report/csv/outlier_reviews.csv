@@ -1,0 +1,4 @@
+﻿file,row number,column,bad value,issue type,explanation
+sample_advanced.csv,16,Total Spent,120000,review,"Review value outside the 3 × IQR range (-365 to 580); this is a review flag, not an error."
+sample_advanced.csv,11,Price Per Unit,41,review,"Review value outside the 3 × IQR range (-3.125 to 27.5); this is a review flag, not an error."
+sample_advanced.csv,12,Price Per Unit,41,review,"Review value outside the 3 × IQR range (-3.125 to 27.5); this is a review flag, not an error."

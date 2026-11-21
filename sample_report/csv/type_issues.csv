@@ -1,0 +1,8 @@
+﻿file,row number,column,bad value,issue type,explanation
+sample_advanced.csv,13,Order Date,2024-02-30,type mismatch,Expected date value based on column type
+sample_messy.csv,5,amount,abc,type mismatch,Expected number value based on column type
+sample_messy.csv,6,amount,$25.00,type mismatch,Expected number value based on column type
+sample_messy.csv,5,order_date,2024-02-31,type mismatch,Expected date value based on column type
+sample_messy_2.csv,4,score,high,type mismatch,Expected number value based on column type
+sample_messy_2.csv,5,event_date,2024-02-30,type mismatch,Expected date value based on column type
+sample_messy_2.csv,6,event_date,2024-02-30,type mismatch,Expected date value based on column type

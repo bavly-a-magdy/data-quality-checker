@@ -1,0 +1,5 @@
+﻿file,row number,column,bad value,issue type,explanation
+sample_advanced.csv,11,"Transaction ID, Total Spent, Price Per Unit, Quantity, Order Date, Channel, Region",T010 | 410 | 41 | 10 | 2024-01-10 | Store | South,duplicate row,This row repeats another row
+sample_advanced.csv,12,"Transaction ID, Total Spent, Price Per Unit, Quantity, Order Date, Channel, Region",T010 | 410 | 41 | 10 | 2024-01-10 | Store | South,duplicate row,This row repeats another row
+sample_messy_2.csv,5,"record_id, score, event_date, region",A4 | -4 | 2024-02-30 | West,duplicate row,This row repeats another row
+sample_messy_2.csv,6,"record_id, score, event_date, region",A4 | -4 | 2024-02-30 | West,duplicate row,This row repeats another row

@@ -1,0 +1,7 @@
+id,email,amount,order_date,quantity,comment
+1,ana@example.com,"1,200.50",2024-01-05,3,ok
+2,bob@example.com,45.00,05/01/2024,-2,ok
+2,bob@example.com,45.00,05/01/2024,-2,duplicate
+4,carol@example.com,abc,2024-02-31,1,NA
+5,,"$25.00",2024/01/06,2,missing email
+6,dave@example.com,"1.200,50",2024-01-07,4,ok

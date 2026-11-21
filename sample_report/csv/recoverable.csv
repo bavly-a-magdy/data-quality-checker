@@ -1,0 +1,3 @@
+﻿file,row number,column,suggested value,rule used
+sample_inference.csv,102,Price Per Unit,101.0,Total Spent = Price Per Unit * Quantity
+sample_inference.csv,103,Total Spent,120.0,Total Spent = Price Per Unit * Quantity

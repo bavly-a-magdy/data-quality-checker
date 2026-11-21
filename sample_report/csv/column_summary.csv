@@ -1,0 +1,26 @@
+﻿file,column,inferred type,missing count,missing %,unique count,min,max,top 3 values,weighted issues,quality score
+sample_advanced.csv,Transaction ID,text,0,0.0,14,,,T010 (2); T001 (1); T002 (1),2.0,86.67
+sample_advanced.csv,Total Spent,number,1,6.67,8,36.0,120000.0,,3.0,80.0
+sample_advanced.csv,Price Per Unit,number,1,6.67,7,9.0,41.0,,3.0,80.0
+sample_advanced.csv,Quantity,number,0,0.0,2,4.0,10.0,,2.0,86.67
+sample_advanced.csv,Order Date,date,0,0.0,14,2024-01-01,2035-01-07,,5.0,66.67
+sample_advanced.csv,Channel,text,0,0.0,3,,,Online (7); Store (6); online  (2),11.0,26.67
+sample_advanced.csv,Region,text,0,0.0,4,,,South (5); North (4); East (3),2.0,86.67
+sample_clean.csv,id,number,0,0.0,3,1.0,3.0,,0.0,100.0
+sample_clean.csv,name,text,0,0.0,3,,,Ana (1); Bob (1); Cara (1),0.0,100.0
+sample_clean.csv,amount,number,0,0.0,3,12.5,35.0,,0.0,100.0
+sample_clean.csv,date,date,0,0.0,3,2024-01-01,2024-01-03,,0.0,100.0
+sample_inference.csv,Sale Ref,text,0,0.0,102,,,R001 (1); R002 (1); R003 (1),0.0,100.0
+sample_inference.csv,Total Spent,number,1,0.98,101,3.0,202.0,,2.0,98.04
+sample_inference.csv,Price Per Unit,number,1,0.98,100,1.0,100.0,,2.0,98.04
+sample_inference.csv,Quantity,number,0,0.0,1,2.0,2.0,,1.0,99.02
+sample_messy.csv,id,number,0,0.0,5,1.0,6.0,,0.0,100.0
+sample_messy.csv,email,text,1,16.67,4,,,bob@example.com (2); ana@example.com (1); carol@example.com (1),1.0,83.33
+sample_messy.csv,amount,number,0,0.0,5,45.0,1200.5,,8.0,0.0
+sample_messy.csv,order_date,date,0,0.0,5,2024-01-05,2024-01-07,,7.0,0.0
+sample_messy.csv,quantity,number,0,0.0,5,-2.0,4.0,,0.0,100.0
+sample_messy.csv,comment,text,1,16.67,3,,,ok (3); duplicate (1); missing email (1),1.0,83.33
+sample_messy_2.csv,record_id,text,0,0.0,5,,,A4 (2); A1 (1); A2 (1),2.0,66.67
+sample_messy_2.csv,score,number,1,16.67,4,-4.0,91.0,,4.0,33.33
+sample_messy_2.csv,event_date,date,0,0.0,5,2024-03-10,2024-03-14,,10.0,0.0
+sample_messy_2.csv,region,text,1,16.67,4,,,West (2); North (1); South (1),3.0,50.0

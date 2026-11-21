@@ -1,0 +1,11 @@
+{
+  "types": {
+    "Order Date": "date",
+    "Price Per Unit": "number",
+    "Quantity": "number",
+    "Total Spent": "number"
+  },
+  "non_negative": ["Price Per Unit", "Quantity", "Total Spent"],
+  "optional_columns": ["Region"],
+  "rules": ["Total Spent == Price Per Unit * Quantity"]
+}
